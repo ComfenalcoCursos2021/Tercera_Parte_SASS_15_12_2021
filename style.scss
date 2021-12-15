@@ -1,0 +1,21 @@
+@import "utilities/scss/variables";
+@import "utilities/scss/function-mixin";
+
+h1{
+    @include propiedades();
+}
+
+// $color: #F50; 
+// $i: 1;
+
+// h1{
+//     font-family: Arial, Helvetica, sans-serif;
+//     @while $i <= 10 {
+//         &:nth-of-type(#{$i}){
+//             background: darken($color, $i * 2%);
+//             color: white;
+//         }
+//         $i: $i + 1;
+//     }
+// }
+
